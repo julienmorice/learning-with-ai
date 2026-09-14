@@ -9,6 +9,12 @@ Julien Morice — PracTice team, IMT Business School.
 
 English adaptation of [apprendre-avec-ia](https://github.com/julienmorice/apprendre-avec-ia).
 
+## Flow
+
+1. **`gen-z.html`** — opening page, "Gen Z in the Age of AI", with the
+   context-setting video and a button leading into the presentation.
+2. **`index.html`** — the presentation, 22 slides.
+
 ## Usage
 
 Self-contained HTML page, 22 slides, scaled 16:9 scene.
@@ -48,6 +54,7 @@ link, useful if the player fails to load.
 ## Structure
 
 ```
+gen-z.html      opening page "Gen Z in the Age of AI" (video)
 index.html      the whole presentation, styles and scripts included
 images/         slide visuals and QR codes
 ```
