@@ -11,9 +11,9 @@ English adaptation of [apprendre-avec-ia](https://github.com/julienmorice/appren
 
 ## Flow
 
-1. **`gen-z.html`** — opening page, "Gen Z in the Age of AI", with the
-   context-setting video and a button leading into the presentation.
-2. **`index.html`** — the presentation, 22 slides.
+1. **`index.html`** (site root) — opening page, "Gen Z in the Age of AI",
+   with the context-setting video and a button leading into the presentation.
+2. **`presentation.html`** — the presentation itself, 22 slides.
 
 ## Usage
 
@@ -54,7 +54,11 @@ link, useful if the player fails to load.
 ## Structure
 
 ```
-gen-z.html      opening page "Gen Z in the Age of AI" (video)
-index.html      the whole presentation, styles and scripts included
-images/         slide visuals and QR codes
+index.html         opening page "Gen Z in the Age of AI" (video) — site root
+presentation.html  the whole presentation, styles and scripts included
+images/            slide visuals and QR codes
 ```
+
+The "whole presentation online" QR code on the last slide points straight
+to `presentation.html`, skipping the opening video for anyone scanning it
+after the talk.
