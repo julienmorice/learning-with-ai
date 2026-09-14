@@ -9,15 +9,11 @@ Julien Morice — PracTice team, IMT Business School.
 
 English adaptation of [apprendre-avec-ia](https://github.com/julienmorice/apprendre-avec-ia).
 
-## Flow
-
-1. **`index.html`** (site root) — opening page, "Gen Z in the Age of AI",
-   with the context-setting video and a button leading into the presentation.
-2. **`presentation.html`** — the presentation itself, 22 slides.
-
 ## Usage
 
-Self-contained HTML page, 22 slides, scaled 16:9 scene.
+Self-contained HTML page, 23 slides, scaled 16:9 scene. Slide 1 is the
+"Gen Z in the Age of AI" video, opening the deck before slide 2, "Learning
+with AI".
 
 | Key | Action |
 |---|---|
@@ -47,18 +43,14 @@ landscape.**
 
 ## Videos
 
-The five demonstrations are IP Paris MediaServer (UbiCast) players embedded
-as `iframe`s. Each video slide also carries an "Open the video in a new tab"
-link, useful if the player fails to load.
+Six slides embed IP Paris MediaServer (UbiCast) players as `iframe`s: the
+opening "Gen Z in the Age of AI" video and the five workshop demonstrations.
+Each video slide also carries an "Open the video in a new tab" link, useful
+if the player fails to load.
 
 ## Structure
 
 ```
-index.html         opening page "Gen Z in the Age of AI" (video) — site root
-presentation.html  the whole presentation, styles and scripts included
-images/            slide visuals and QR codes
+index.html      the whole presentation, styles and scripts included
+images/         slide visuals and QR codes
 ```
-
-The "whole presentation online" QR code on the last slide points straight
-to `presentation.html`, skipping the opening video for anyone scanning it
-after the talk.
